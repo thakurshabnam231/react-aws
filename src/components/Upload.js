@@ -2,10 +2,10 @@ import React , {useState} from 'react';
 import { uploadFile } from 'react-s3';
 
 
-const S3_BUCKET ='reactjs-shabnam';
-const REGION ='ap-south-1';
-const ACCESS_KEY ='AKIATZUNEARHBLL2U54H';
-const SECRET_ACCESS_KEY ='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';
+const S3_BUCKET ='bucket name';
+const REGION ='region';
+const ACCESS_KEY ='Access key';
+const SECRET_ACCESS_KEY ='secret key';
 
 const config = {
     bucketName: S3_BUCKET,
